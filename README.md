@@ -1,13 +1,13 @@
-[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/DAGAN/blob/master/LICENSE.md)
+[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/DPGAN/blob/master/LICENSE.md)
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 ![Packagist](https://img.shields.io/badge/Pytorch-1.0.0-red.svg)
-![Last Commit](https://img.shields.io/github/last-commit/Ha0Tang/DAGAN)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/Ha0Tang/DAGAN/graphs/commit-activity))
+![Last Commit](https://img.shields.io/github/last-commit/Ha0Tang/DPGAN)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/Ha0Tang/DPGAN/graphs/commit-activity))
 ![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
 ## Contents
-  - [Semantic Image Synthesis with DAGAN](#Semantic-Image-Synthesis-with-DAGAN)
+  - [Semantic Image Synthesis with DPGAN](#Semantic-Image-Synthesis-with-DPGAN)
   - [Installation](#Installation)
   - [Dataset Preparation](#Dataset-Preparation)
   - [Generating Images Using Pretrained Model](#Generating-Images-Using-Pretrained-Model)
@@ -19,15 +19,15 @@
   - [Contributions](#Contributions)
   - [Collaborations](#Collaborations)
 
-## Semantic Image Synthesis with DAGAN
+## Semantic Image Synthesis with DPGAN
 
-**[Dual Attention GANs for Semantic Image Synthesis](https://arxiv.org/abs/2008.13024)**  
-[Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>1</sup>, [Song Bai](http://songbai.site/)<sup>2</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>13</sup>. <br> 
-<sup>1</sup>University of Trento, Italy, <sup>2</sup>University of Oxford, UK, <sup>3</sup>Huawei Research Ireland, Ireland. <br>
-In [ACM MM 2020](https://2020.acmmm.org/). <br>
+**[Layout-to-Image Translation with Double Pooling Generative Adversarial Networks](https://arxiv.org/abs/2008.xxx)**  
+[Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>1</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>2</sup>. <br> 
+<sup>1</sup>ETH Zurich, Switzerland, <sup>2</sup>University of Trento, Italy.<br>
+In [TIP 2021](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83). <br>
 The repository offers the official implementation of our paper in PyTorch.
 
-In the meantime, check out our related CVPR 2020 paper [Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation](https://github.com/Ha0Tang/LGGAN) and Arxiv paper [Edge Guided GANs with Semantic Preserving for Semantic Image Synthesis](https://github.com/Ha0Tang/EdgeGAN).
+In the meantime, check out our related CVPR 2020 paper [Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation](https://github.com/Ha0Tang/LGGAN), ACM MM 2021 paper [Dual Attention GANs for Semantic Image Synthesis](https://github.com/Ha0Tang/LGGAN), and Arxiv paper [Edge Guided GANs with Semantic Preserving for Semantic Image Synthesis](https://github.com/Ha0Tang/EdgeGAN).
 
 ### Framework
 <img src='./imgs/method.jpg' width=1200>
@@ -52,18 +52,18 @@ In the meantime, check out our related CVPR 2020 paper [Local Class-Specific and
 
 ### [License](./LICENSE.md)
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
-Copyright (C) 2020 University of Trento, Italy.
+Copyright (C) 2021 ETH Zurich, Switzerland and University of Trento, Italy.
 
 All rights reserved.
 Licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) (**Attribution-NonCommercial-ShareAlike 4.0 International**)
 
-The code is released for academic research use only. For commercial use, please contact [hao.tang@unitn.it](hao.tang@unitn.it).
+The code is released for academic research use only. For commercial use, please contact [bjdxtanghao@gmail.com](bjdxtanghao@gmail.com).
 
 ## Installation
 
 Clone this repo.
 ```bash
-git clone https://github.com/Ha0Tang/DAGAN
+git clone https://github.com/Ha0Tang/DPGAN
 cd DAGAN/
 ```
 
@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 This code also requires the Synchronized-BatchNorm-PyTorch rep.
 ```
-cd DAGAN_v1/
+cd DPGAN/
 cd models/networks/
 git clone https://github.com/vacancy/Synchronized-BatchNorm-PyTorch
 cp -rf Synchronized-BatchNorm-PyTorch/sync_batchnorm .
