@@ -21,7 +21,7 @@
 
 ## Semantic Image Synthesis with DPGAN
 
-**[Layout-to-Image Translation with Double Pooling Generative Adversarial Networks](https://arxiv.org/abs/2008.xxx)**  
+**[Layout-to-Image Translation with Double Pooling Generative Adversarial Networks](https://arxiv.org/abs/2108.12900)**  
 [Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>1</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>2</sup>. <br> 
 <sup>1</sup>ETH Zurich, Switzerland, <sup>2</sup>University of Trento, Italy.<br>
 In [TIP 2021](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83). <br>
