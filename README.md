@@ -6,6 +6,8 @@
 ![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
+We are planning to publish the training code here in December. But if the github star reaches one hundred, I will advance the date. Stay tuned:)
+
 ## Contents
   - [Semantic Image Synthesis with DPGAN](#Semantic-Image-Synthesis-with-DPGAN)
   - [Installation](#Installation)
