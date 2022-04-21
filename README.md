@@ -6,7 +6,7 @@
 ![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
-[![download](https://img.shields.io/github/downloads/Ha0Tang/DPGAN/total.svg)](https://github.com/Ha0Tang/DPGAN/releases) 
+[![download](https://img.shields.io/github/downloads/cszn/KAIR/total.svg)](https://github.com/cszn/KAIR/releases)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/Ha0Tang) 
 
 ## Contents
