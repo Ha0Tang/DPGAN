@@ -143,22 +143,22 @@ DPGAN
 }
 ```
 
-DAGAN
-```
-@inproceedings{tang2020dual,
-  title={Dual Attention GANs for Semantic Image Synthesis},
-  author={Tang, Hao and Bai, Song and Sebe, Nicu},
-  booktitle ={ACM MM},
-  year={2020}
-}
-```
-
 EdgeGAN
 ```
 @article{tang2020edge,
   title={Edge Guided GANs with Semantic Preserving for Semantic Image Synthesis},
   author={Tang, Hao and Qi, Xiaojuan and Xu, Dan and Torr, Philip HS and Sebe, Nicu},
   journal={arXiv preprint arXiv:2003.13898},
+  year={2020}
+}
+```
+
+DAGAN
+```
+@inproceedings{tang2020dual,
+  title={Dual Attention GANs for Semantic Image Synthesis},
+  author={Tang, Hao and Bai, Song and Sebe, Nicu},
+  booktitle ={ACM MM},
   year={2020}
 }
 ```
@@ -194,6 +194,16 @@ SelectionGAN
   author={Tang, Hao and Xu, Dan and Yan, Yan and Corso, Jason J and Torr, Philip HS and Sebe, Nicu},
   journal={arXiv preprint arXiv:2002.01048},
   year={2020}
+}
+```
+
+PanoGAN
+```
+@article{wu2022cross,
+  title={Cross-View Panorama Image Synthesis},
+  author={Wu, Songsong and Tang, Hao and Jing, Xiao-Yuan and Zhao, Haifeng and Qian, Jianjun and Sebe, Nicu and Yan, Yan},
+  journal={IEEE Transactions on Multimedia (TMM)},
+  year={2022}
 }
 ```
 
