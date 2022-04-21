@@ -121,10 +121,10 @@ There are many options you can specify. To specify the number of GPUs to utilize
 For more details, please refer to [this issue](https://github.com/NVlabs/SPADE/issues/39).
 
 ## Acknowledgments
-This source code is inspired by both [GauGAN/SPADE](https://github.com/NVlabs/SPADE) and [LGGAN](https://github.com/Ha0Tang/LGGAN).
+This source code is inspired by both [GauGAN/SPADE](https://github.com/NVlabs/SPADE), [LGGAN](https://github.com/Ha0Tang/LGGAN), and [DAGAN](https://github.com/Ha0Tang/DAGAN).
 
 ## Related Projects
-**[EdgeGAN](https://github.com/Ha0Tang/EdgeGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [PanoGAN](https://github.com/sswuai/PanoGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
+**[EdgeGAN](https://github.com/Ha0Tang/EdgeGAN) | [DAGAN](https://github.com/Ha0Tang/DAGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [PanoGAN](https://github.com/sswuai/PanoGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
 
 ## Citation
 If you use this code for your research, please consider giving stars :star: and citing our papers :t-rex::
@@ -151,6 +151,13 @@ EdgeGAN
 
 LGGAN
 ```
+@article{tang2022local,
+  title={Local and Global GANs with Semantic-Aware Upsampling for Image Generation},
+  author={Tang, Hao and Shao, Ling and Torr, Philip HS and Sebe, Nicu},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  year={2022}
+}
+
 @inproceedings{tang2019local,
   title={Local Class-Specific and Global Image-Level Generative Adversarial Networks for Semantic-Guided Scene Generation},
   author={Tang, Hao and Xu, Dan and Yan, Yan and Torr, Philip HS and Sebe, Nicu},
@@ -177,9 +184,9 @@ SelectionGAN
 ```
 
 ## Contributions
-If you have any questions/comments/bug reports, feel free to open a github issue or pull a request or e-mail to the author Hao Tang ([hao.tang@unitn.it](hao.tang@unitn.it)).
+If you have any questions/comments/bug reports, feel free to open a github issue or pull a request or e-mail to the author Hao Tang ([bjdxtanghao@gmail.com](bjdxtanghao@gmail.com)).
 
 ## Collaborations
-I'm always interested in meeting new people and hearing about potential collaborations. If you'd like to work together or get in contact with me, please email hao.tang@unitn.it.
+I'm always interested in meeting new people and hearing about potential collaborations. If you'd like to work together or get in contact with me, please email bjdxtanghao@gmail.com.
 ___
 *Take a few minutes to appreciate what you have and how far you've come.*
