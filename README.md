@@ -131,6 +131,18 @@ This source code is inspired by both [GauGAN/SPADE](https://github.com/NVlabs/SP
 ## Citation
 If you use this code for your research, please consider giving stars :star: and citing our papers :t-rex::
 
+DPGAN
+```
+@article{tang2021layout,
+  title={Layout-to-image translation with double pooling generative adversarial networks},
+  author={Tang, Hao and Sebe, Nicu},
+  journal={IEEE Transactions on Image Processing (TIP)},
+  volume={30},
+  pages={7903--7913},
+  year={2021}
+}
+```
+
 DAGAN
 ```
 @inproceedings{tang2020dual,
