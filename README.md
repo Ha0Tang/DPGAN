@@ -99,7 +99,7 @@ We also provide the prepared datasets for your convience. Please refer to [DAGAN
 ## Generating Images Using Pretrained Model
 1. Download the pretrained models using the following script,
 ```
-sh scripts/download_dagan_model.sh GauGAN_DAGAN_[dataset]
+sh scripts/download_dpgan_model.sh dpgan_[dataset]
 ```
 where `[dataset]` can be one of `cityscapes`, `ade`, `facades`, or `celeba`.
 
