@@ -1,3 +1,4 @@
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/Ha0Tang) 
 [![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/DPGAN/blob/master/LICENSE.md)
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 ![Packagist](https://img.shields.io/badge/Pytorch-1.0.0-red.svg)
@@ -6,8 +7,6 @@
 ![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
-[![download](https://img.shields.io/github/downloads/cszn/KAIR/total.svg)](https://github.com/cszn/KAIR/releases)
-![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/Ha0Tang) 
 
 ## Contents
   - [Semantic Image Synthesis with DPGAN](#Semantic-Image-Synthesis-with-DPGAN)
