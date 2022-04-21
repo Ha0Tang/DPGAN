@@ -6,6 +6,9 @@
 ![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
+[![download](https://img.shields.io/github/downloads/Ha0Tang/DPGAN/total.svg)](https://github.com/Ha0Tang/DPGAN/releases) 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/Ha0Tang) 
+
 ## Contents
   - [Semantic Image Synthesis with DPGAN](#Semantic-Image-Synthesis-with-DPGAN)
   - [Installation](#Installation)
@@ -52,7 +55,7 @@ In the meantime, check out our related CVPR 2020 paper [Local Class-Specific and
 
 ### [License](./LICENSE.md)
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
-Copyright (C) 2022 ETH Zurich, Switzerland and University of Trento, Italy.
+Copyright (C) 2021 ETH Zurich, Switzerland and University of Trento, Italy.
 
 All rights reserved.
 Licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) (**Attribution-NonCommercial-ShareAlike 4.0 International**)
