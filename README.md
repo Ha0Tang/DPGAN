@@ -22,7 +22,7 @@
 ## Semantic Image Synthesis with DPGAN
 
 **[Layout-to-Image Translation with Double Pooling Generative Adversarial Networks](https://arxiv.org/abs/2108.12900)**  
-[Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>1</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>2</sup>. <br> 
+[Hao Tang](https://scholar.google.com/citations?user=9zJkeEMAAAAJ&hl=en)<sup>1</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>2</sup>. <br> 
 <sup>1</sup>ETH Zurich, Switzerland, <sup>2</sup>University of Trento, Italy.<br>
 In [TIP 2021](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83). <br>
 The repository offers the official implementation of our paper in PyTorch.
@@ -52,7 +52,7 @@ In the meantime, check out our related CVPR 2020 paper [Local Class-Specific and
 
 ### [License](./LICENSE.md)
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
-Copyright (C) 2021 ETH Zurich, Switzerland and University of Trento, Italy.
+Copyright (C) 2022 ETH Zurich, Switzerland and University of Trento, Italy.
 
 All rights reserved.
 Licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) (**Attribution-NonCommercial-ShareAlike 4.0 International**)
@@ -92,11 +92,7 @@ Please download the datasets on the respective webpages.
 - ADE20K: 953.7M, [here](http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip).
 - COCO-Stuff: 21.5G, [here](https://github.com/nightrome/cocostuff).
 
-We also provide the prepared datasets for your convience.
-```
-sh datasets/download_dagan_dataset.sh [dataset]
-```
-where `[dataset]` can be one of `facades`, `deepfashion`, `celeba`, `cityscapes`, `ade20k`, or `coco_stuff`.
+We also provide the prepared datasets for your convience. Please refer to [DAGAN](https://github.com/Ha0Tang/DAGAN#dataset-preparation) to download the datasets.
 
 ## Generating Images Using Pretrained Model
 1. Download the pretrained models using the following script,
