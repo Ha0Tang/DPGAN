@@ -126,7 +126,7 @@ For more details, please refer to [this issue](https://github.com/NVlabs/SPADE/i
 This source code is inspired by both [GauGAN/SPADE](https://github.com/NVlabs/SPADE), [LGGAN](https://github.com/Ha0Tang/LGGAN), and [DAGAN](https://github.com/Ha0Tang/DAGAN).
 
 ## Related Projects
-**[EdgeGAN](https://github.com/Ha0Tang/EdgeGAN) | [DAGAN](https://github.com/Ha0Tang/DAGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [PanoGAN](https://github.com/sswuai/PanoGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
+**[ECGAN](https://github.com/Ha0Tang/ECGAN) | [DAGAN](https://github.com/Ha0Tang/DAGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [PanoGAN](https://github.com/sswuai/PanoGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
 
 ## Citation
 If you use this code for your research, please consider giving stars :star: and citing our papers :t-rex::
@@ -143,13 +143,13 @@ DPGAN
 }
 ```
 
-EdgeGAN
+ECGAN
 ```
-@article{tang2020edge,
-  title={Edge Guided GANs with Semantic Preserving for Semantic Image Synthesis},
-  author={Tang, Hao and Qi, Xiaojuan and Xu, Dan and Torr, Philip HS and Sebe, Nicu},
-  journal={arXiv preprint arXiv:2003.13898},
-  year={2020}
+@article{tang2023edge,
+  title={Edge Guided GANs with Contrastive Learning for Semantic Image Synthesis},
+  author={Tang, Hao and Qi, Xiaojuan and Sun, Guolei, and Xu, Dan and and Sebe, Nicu and Timofte, Radu and Van Gool, Luc},
+  journal={ICLR},
+  year={2023}
 }
 ```
 
@@ -182,18 +182,18 @@ LGGAN
 
 SelectionGAN
 ```
+@article{tang2022multi,
+  title={Multi-Channel Attention Selection GANs for Guided Image-to-Image Translation},
+  author={Tang, Hao and Torr, Philip HS and Sebe, Nicu},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  year={2022}
+}
+
 @inproceedings{tang2019multi,
   title={Multi-channel attention selection gan with cascaded semantic guidance for cross-view image translation},
   author={Tang, Hao and Xu, Dan and Sebe, Nicu and Wang, Yanzhi and Corso, Jason J and Yan, Yan},
   booktitle={CVPR},
   year={2019}
-}
-
-@article{tang2020multi,
-  title={Multi-channel attention selection gans for guided image-to-image translation},
-  author={Tang, Hao and Xu, Dan and Yan, Yan and Corso, Jason J and Torr, Philip HS and Sebe, Nicu},
-  journal={arXiv preprint arXiv:2002.01048},
-  year={2020}
 }
 ```
 
